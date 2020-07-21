@@ -1,10 +1,11 @@
 def valid_move?(board, index)
   if position_taken?(board, index) == "X" || "O" && index.between?(0,8)
     true
-    else board[index] == " " || position_taken?
+    else
       false
     end
   end
+  
   
 
 
